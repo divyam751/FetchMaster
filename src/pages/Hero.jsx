@@ -94,7 +94,7 @@ const Hero = () => {
     };
 
     if (obj.method !== "GET") {
-      attachObj.body = JSON.stringify(obj.textareaBody);
+      attachObj.body = obj.textareaBody;
     }
 
     try {
