@@ -94,6 +94,7 @@ const Hero = () => {
     };
 
     if (obj.method !== "GET") {
+      repair();
       attachObj.body = obj.textareaBody;
     }
 
